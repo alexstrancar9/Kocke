@@ -1,0 +1,145 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-image:url("../slike/background.jpg");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+#glavni{
+	height: 310px;
+	width: 900px;
+	border:1px solid black;
+	margin:10% auto;
+	background-color:rgba(150,150,150,0.95);
+	border:2px solid red;
+}
+
+#input1{
+	height: 310px;
+	width: 295px;
+	float: left;
+	
+}
+
+#input2{
+	height: 310px;
+	width: 295px;
+	display: inline-block;
+	margin: 0 0.5%;
+	
+}
+
+#input3{
+	height: 310px;
+	width: 295px;
+	float: right;
+	
+}
+
+#score1{
+	margin: 50% 35%;
+	height:63px;
+	width:63px;
+}
+
+#score2{
+	margin: 50% 35%;
+	height:63px;
+	width:63px;
+	
+}
+
+#score3{
+	margin: 50% 35%;
+	height:63px;
+	width:63px;
+}
+
+#naslov{
+	font-size:48px;
+	margin: -9% 42%;
+	font-family: gambling;
+	color: red;
+	position: absolute;
+	height: 30px;
+	white-space: nowrap;
+	
+		
+}
+
+.send{
+	height: 130px;
+	width: 250px;
+	border:2px solid red;
+	display: inline-block;
+	margin: 1% 35%;
+	background-color:rgba(140,140,140,0.90);	
+}
+
+.ime1{
+	margin: 10% 20%;
+	
+	
+}
+
+.ime2{
+	margin: 10% 20%;
+	
+	
+}
+
+.ime3{
+	margin: 10% 20%;
+	
+	
+}
+
+#button{
+	margin:-5% auto;
+	height: 60px;
+	width: 150px;
+	border: 1px solid black;
+	
+}
+
+.subbutton{	
+	margin:2% 20%;
+	height: 60px;
+	width: 150px;
+	border: 1px solid black;
+}
+
+.submit{
+	height: 60px;
+	width: 150px;
+	
+}
+
+.gif{
+	margin: 10% 30%;
+	
+}
+
+#pisava{	
+	font-size:20px;
+	color: black;	
+	font-weight:bold;
+	margin:0 35%;
+}
+
+#pisava1{	
+	font-size:20px;
+	color: black;	
+	font-weight:bold;
+	margin: 0 8%;
+}
+
+@font-face {
+  font-family: gambling;
+  src: url("../font/gambling.ttf");
+
+}
